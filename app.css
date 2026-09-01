@@ -25,7 +25,6 @@ body {
 }
 
 header {
-  border: 2px solid red;
   max-width: 375px;
 }
 
@@ -58,6 +57,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  padding-bottom: 2.5rem;
 }
 
 h3 {
@@ -78,17 +78,19 @@ main img {
 }
 
 .supervisor {
-  border-top: 2px solid var(--Cyan);
+  border-top: 5px solid var(--Cyan);
   width: 315px;
   height: 250px;
   background-color: var(--Grey-400);
+  border-radius: 10px;
 }
 
 .builder {
-  border-top: 2px solid var(--Red);
+  border-top: 5px solid var(--Red);
   width: 315px;
   height: 250px;
   background-color: var(--Grey-400);
+  border-radius: 10px;
 }
 
 .karma {
@@ -96,13 +98,15 @@ main img {
   width: 315px;
   height: 250px;
   background-color: var(--Grey-400);
+  border-radius: 10px;
 }
 
 .calculator {
-  border-top: 2px solid var(--Blue);
+  border-top: 5px solid var(--Blue);
   width: 315px;
   height: 250px;
   background-color: var(--Grey-400);
+  border-radius: 10px;
 }
 
 .attribution {
