@@ -24,20 +24,41 @@ body {
   font-size: 15px;
 }
 
+main {
+  border: 2px solid red;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .supervisor {
   border-top: 2px solid var(--Cyan);
+  width: 315px;
+  height: 250px;
+  background-color: var(--Grey-400);
 }
 
 .builder {
   border-top: 2px solid var(--Red);
+  width: 315px;
+  height: 250px;
+  background-color: var(--Grey-400);
 }
 
 .karma {
   border-top: 2px solid var(--Orange);
+  width: 315px;
+  height: 250px;
+  background-color: var(--Grey-400);
 }
 
 .calculator {
   border-top: 2px solid var(--Blue);
+  width: 315px;
+  height: 250px;
+  background-color: var(--Grey-400);
 }
 
 .attribution {
