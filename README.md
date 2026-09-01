@@ -19,6 +19,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Overview
 
+This project is a solution to the Frontend Mentor Four card feature section challenge. The goal was to build a responsive Four card feature section that matched the designs provided.
+
 ### The challenge
 
 Users should be able to:
@@ -27,22 +29,31 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile Challenge](Fourcardfeaturesectionmobile.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop Challenge](Fourcardfeaturesectiondesktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github URL: https://github.com/arielvonlestat/Four-Card-Feature-Section
+
+- Live Site URL: https://arielvonlestat.github.io/Four-Card-Feature-Section/
 
 ## My process
+
+This is the first README.md file that I have done when I did the actual challenge, as I did not realize how to do so prior and therefore did them as I updated the HTML & CSS code.
+
+I started with the HTML document. Linking my CSS & Reset documents. I took all of the main cards (Supervisor, Team Builder, Karma, & Calculator) and wrapped them in a "main" element. I then took each card and made a "div" with a class showing each card seperately. Within those classes I took all the respective headers and made them "h3"s and took all the text and made them into "p"s.
+
+I then encased all of the top information into a header and split the text between an "h1" "h2" & a "p". This enabled me to work on everything seperately within CSS.
+
+As far as the CSS goes, as always I started with the Mobile version of the page. I began as I always do using a :root color system to track colors & this time I decided to do the font directly in CSS which I had never done before. Set up the overal "body" & then began working on the cards themselves.
+
+These I tried to group all of them together within CSS using flexbox to give them their layout, changing their boarder-radius, widths & heights, and even giving them their box-shadow. I then individually gave them their colorful border tops.
+
+I then focused on their contents. Making sure that the headers, the paragraph text, & the images were where they needed to be.
+
+Lastly I did the desktop version which of course used CSS Grid. I had never used it before so I did some research, spoke to ChatGPT, & then practiced and fooled around with it until I got it where I wanted to. This was all done with Media Queries. I then adjusted things that needed to be adjusted here like the header text, also using Media Queries.
 
 ### Built with
 
@@ -50,72 +61,36 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- VS Code
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+My biggest take away from this challege was CSS Grid. I had never actually used it before. So as stated above, I did some research as well as talking through it with ChatGPT to get an overall basis for what the concept was. I then puilled it up on Chrome DevTools and pulled up the grid itself so I could visually see this! I didn't know I could do this prior to researching so this was extremely helpful. I learned that within the grid it focuses on the lines as well as how many rows and although it is still pretty confusing to me, I was proud that I was able to figure it out and can't wait to continue learning.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+As I've stated in other README.md files, I think at this point I am ready to move on to learning javascript. I am by no means an expert at CSS but I feel a lot more confident in my skills now.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will continue to work on CSS Grid & continue to do Frontend Mentor challenges. Once I get to a Javascript challenge then I'll start learning Javascirpt via my Udemy Bootcamp.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Google Chrome](https://www.google.com/chrome/) - I know it sounds a little silly to add this as a useful resource as everyone probably already knows what it is. However, when it came to being able to see the Grid visually within Chrome's DevTools, this was an absoute game changer for me learning CSS Grid. I am a visual learner & I admittedly don't use the Dev tools as much as I probably should but again I cannot stress enough how valueable this was!
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
 - What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+
+As mentioned above I used ChatGPT.
+
 - How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+
+I am always very careful in the way that I use it. I do not want it doing the work for me and therefore I only ask it specific questions to understand better. Typically overall concepts, or generalized ideas. I am careful not to ask it to just completely do something for me as I do not feel like I learn that way. If it does give me more information than I want (which it has from time to time) then I spend a lot of time understanding why the answer or concept works and if it doesn't explain it in a way I can understand I asked questions to make sure I understand it.
+
 - What worked well? What didn't?
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+The overall concept of Grid CSS it helped with a lot. I don't know why but it was often wrong this time. I kept catching it telling me soemthing that I knew wasn't true and I would correct it and it would tell me something else that wasn't true. Very frustrating & outside of the concept of CSS Grid (which I could have gotten elsewhere) it was more of a burden than a help.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [ArielVonLestat](https://www.frontendmentor.io/profile/arielvonlestat)
