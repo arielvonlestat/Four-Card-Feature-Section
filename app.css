@@ -22,6 +22,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  background-color: var(--Grey-400);
 }
 
 header {
@@ -74,39 +75,39 @@ main p {
 }
 
 main img {
+  margin-left: auto;
+  margin-top: 2.5rem;
+  margin-right: 1rem;
   padding: 1rem;
+}
+
+.supervisor,
+.builder,
+.karma,
+.calculator {
+  max-width: 315px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: var(--White);
+  /* background-color: var(--Grey-400); */
 }
 
 .supervisor {
   border-top: 5px solid var(--Cyan);
-  width: 315px;
-  height: 250px;
-  background-color: var(--Grey-400);
-  border-radius: 10px;
 }
 
 .builder {
   border-top: 5px solid var(--Red);
-  width: 315px;
-  height: 250px;
-  background-color: var(--Grey-400);
-  border-radius: 10px;
 }
 
 .karma {
   border-top: 2px solid var(--Orange);
-  width: 315px;
-  height: 250px;
-  background-color: var(--Grey-400);
-  border-radius: 10px;
 }
 
 .calculator {
   border-top: 5px solid var(--Blue);
-  width: 315px;
-  height: 250px;
-  background-color: var(--Grey-400);
-  border-radius: 10px;
 }
 
 .attribution {
