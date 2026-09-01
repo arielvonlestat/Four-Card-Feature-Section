@@ -27,7 +27,7 @@ body {
 
 header {
   width: 315px;
-  /* height: 250px; */
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,10 +119,7 @@ main img {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
-  * {
-    outline: 1px solid red;
-  }
+@media (min-width: 1000px) {
   main {
     max-width: 1125px;
     display: grid;
@@ -146,10 +143,21 @@ main img {
   }
 
   .calculator {
+    grid-column: 3/4;
     grid-row: 1/3;
   }
 
   header {
-    width: 25%;
+    width: 100%;
+  }
+
+  header p {
+    font-size: 14px;
+    width: 500px;
+  }
+
+  header h1,
+  header h2 {
+    font-size: 30px;
   }
 }
