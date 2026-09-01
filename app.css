@@ -24,13 +24,56 @@ body {
   font-size: 15px;
 }
 
-main {
-  border: 2px solid red;
+header {
   max-width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+header h1 {
+  font-weight: 200;
+  font-size: 22px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+header p {
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+main {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+h3 {
+  font-weight: 400;
+  padding: 1.5rem 0 0.5rem 1.5rem;
+  font-size: 18px;
+}
+
+main p {
+  font-weight: 200;
+  font-size: 12px;
+  padding: 0 1.5rem;
+  line-height: 1.5;
+}
+
+main img {
+  padding: 1rem;
 }
 
 .supervisor {
